@@ -54,8 +54,10 @@ covid19-analysis/
 ├── processed_data/         # Cleaned datasets
 │   └── cleaned_covid_data.csv
 ├── visualizations/         # Generated plots
-│   ├── total_cases.png
-│   ├── death_rates.png
+│   ├── cases_over_time.png
+│   ├── correlation_analysis.png
+│   └── death_rates.png
+│   ├── summary.png
 │   └── vaccinations.png
 ├── .gitignore
 ├── LICENSE
@@ -80,23 +82,23 @@ Challenges in normalizing health metrics across jurisdictions
 ## 📊 Visualizations
 
 ### Case Trends
-![Total COVID-19 Cases](visualizations/summary.png)
+![Total COVID-19 Cases](../data/notebooks/visualizations/summary.png)
 *Comparative trends across selected countries*
 
 ### Vaccination Progress
-![Vaccination Rollout](visualizations/vaccinations.png)
+![Vaccination Rollout](../data/notebooks/visualizations/vaccinations.png)
 
 
 ### Death Rate Analysis
-![Death Rate Analysis](visualizations/death_rates.png)
+![Death Rate Analysis](../data/notebooks/visualizations/death_rates.png)
 
 ## 🔍 Key Findings
   **US vs India Case Comparison**
-  ![Case Comparison](visualizations/cases_over_time.png)
+  ![Case Comparison](../data/notebooks/visualizations/cases_over_time.png)
   The US had earlier peaks while India showed steeper waves
 
   **Vaccination Correlation**  
-  ![Vaccination Correlation](visualizations/correlation_analysis.png)
+  ![Vaccination Correlation](../data/notebooks/visualizations/correlation_analysis.png)
    ```python
    # Correlation calculation
    df[['people_vaccinated','new_cases']].corr()
