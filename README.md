@@ -45,24 +45,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
 3. Execute cells sequentially using Shift+Enter
 
-📂 Folder Structure
-covid19-analysis/
-├── data/                   # Raw dataset (gitignored)
-│   └── owid-covid-data.csv
-├── notebooks/
-│   └── analysis.ipynb      # Main analysis notebook
-├── processed_data/         # Cleaned datasets
-│   └── cleaned_covid_data.csv
-├── visualizations/         # Generated plots
-│   ├── cases_over_time.png
-│   ├── correlation_analysis.png
-│   └── death_rates.png
-│   ├── summary.png
-│   └── vaccinations.png
-├── .gitignore
-├── LICENSE
-└── README.md
-
 🔍 Key Insights
 Vaccination Impact: Countries with >50% vaccination by Q3 2021 saw 60% lower mortality
 
@@ -82,25 +64,23 @@ Challenges in normalizing health metrics across jurisdictions
 ## 📊 Visualizations
 
 ### Case Trends
-![Total COVID-19 Cases](../notebooks/visualizations/summary.png)
+![Total COVID-19 Cases](visualizations/summary.png)
 *Comparative trends across selected countries*
 
 ### Vaccination Progress
-![Vaccination Rollout](../notebooks/visualizations/vaccinations.png)
+![Vaccination Rollout](visualizations/vaccinations.png)
 
 
 ### Death Rate Analysis
-![Death Rate Analysis](../notebooks/visualizations/death_rates.png)
+![Death Rate Analysis](visualizations/death_rates.png)
 
 ## 🔍 Key Findings
   **US vs India Case Comparison**
-  ![Case Comparison](../notebooks/visualizations/cases_over_time.png)
+  ![Case Comparison](visualizations/cases_over_time.png)
   The US had earlier peaks while India showed steeper waves
 
   **Vaccination Correlation**  
-  ![Vaccination Correlation](../notebooks/visualizations/correlation_analysis.png)
-   ```python
-   # Correlation calculation
-   df[['people_vaccinated','new_cases']].corr()
+  ![Vaccination Correlation](visualizations/correlation_analysis.png)
+   
 
 
