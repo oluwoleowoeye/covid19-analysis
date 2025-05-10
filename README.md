@@ -61,26 +61,25 @@ How visualization choices affect pattern recognition
 
 Challenges in normalizing health metrics across jurisdictions
 
-## 📊 Visualizations
+## # Visualizations
 
-### Case Trends
+## Case Trends
 ![Total COVID-19 Cases](visualizations/summary.png)
 *Comparative trends across selected countries*
 
-### Vaccination Progress
+## Vaccination Progress
 ![Vaccination Rollout](visualizations/vaccinations.png)
+*Percentage of population vaccinated over time*
 
-
-### Death Rate Analysis
+## Death Rate Analysis
 ![Death Rate Analysis](visualizations/death_rates.png)
+*Mortality rates by country and wave*
 
-## 🔍 Key Findings
-  **US vs India Case Comparison**
-  ![Case Comparison](visualizations/cases_over_time.png)
-  The US had earlier peaks while India showed steeper waves
+## Key Findings
+**US vs India Case Comparison**
+![Case Comparison](visualizations/cases_over_time.png)
+*The US had earlier peaks while India showed steeper waves*
 
-  **Vaccination Correlation**  
-  ![Vaccination Correlation](visualizations/correlation_analysis.png)
-   
-
-
+**Vaccination Correlation**
+![Vaccination Correlation](visualizations/correlation_analysis.png)
+*Relationship between vaccination rates and case numbers*
