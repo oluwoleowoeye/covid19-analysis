@@ -80,27 +80,23 @@ Challenges in normalizing health metrics across jurisdictions
 ## 📊 Visualizations
 
 ### Case Trends
-![Total COVID-19 Cases](visualizations/total_cases.png)
+![Total COVID-19 Cases](visualizations/summary.png)
 *Comparative trends across selected countries*
 
 ### Vaccination Progress
 ![Vaccination Rollout](visualizations/vaccinations.png)
-```python
-# Code snippet that generated this
-vaccine_pivot.plot.area(alpha=0.6, stacked=False)
-```
+
 
 ### Death Rate Analysis
-<img src="visualizations/death_rates.png" width="500" alt="Mortality rates by country">
+![Death Rate Analysis](visualizations/death_rates.png)
 
 ## 🔍 Key Findings
+  **US vs India Case Comparison**
+  ![Case Comparison](visualizations/cases_over_time.png)
+  The US had earlier peaks while India showed steeper waves
 
-1. **US vs India Case Comparison**  
-   ![Case Comparison](visualizations/comparison.png)  
-   *The US had earlier peaks while India showed steeper waves*
-
-2. **Vaccination Correlation**  
-   <img src="visualizations/vax_effect.png" width="400">  
+  **Vaccination Correlation**  
+  ![Vaccination Correlation](visualizations/correlation_analysis.png)
    ```python
    # Correlation calculation
    df[['people_vaccinated','new_cases']].corr()
